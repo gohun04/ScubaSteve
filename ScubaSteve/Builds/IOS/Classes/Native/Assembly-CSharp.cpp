@@ -1,0 +1,149 @@
+﻿#include "il2cpp_precompiled_header.h"
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern TypeInfo U3CModuleU3E_t552_il2cpp_TypeInfo;
+extern TypeInfo DontDestroy_t553_il2cpp_TypeInfo;
+extern TypeInfo Example_t554_il2cpp_TypeInfo;
+extern TypeInfo ExampleEventHandler_t555_il2cpp_TypeInfo;
+extern TypeInfo GUIState_t556_il2cpp_TypeInfo;
+extern TypeInfo ExampleWindow_t557_il2cpp_TypeInfo;
+extern TypeInfo MuffinRushAssets_t561_il2cpp_TypeInfo;
+extern TypeInfo FullScreenAdd_t563_il2cpp_TypeInfo;
+extern TypeInfo GameOverManager_t567_il2cpp_TypeInfo;
+extern TypeInfo GetScore_t568_il2cpp_TypeInfo;
+extern TypeInfo AdFailedToLoadEventArgs_t566_il2cpp_TypeInfo;
+extern TypeInfo AdPosition_t569_il2cpp_TypeInfo;
+extern TypeInfo Builder_t570_il2cpp_TypeInfo;
+extern TypeInfo AdRequest_t564_il2cpp_TypeInfo;
+extern TypeInfo AdSize_t574_il2cpp_TypeInfo;
+extern TypeInfo BannerView_t578_il2cpp_TypeInfo;
+extern TypeInfo Gender_t579_il2cpp_TypeInfo;
+extern TypeInfo InterstitialAd_t562_il2cpp_TypeInfo;
+extern TypeInfo DummyClient_t581_il2cpp_TypeInfo;
+extern TypeInfo IAdListener_t582_il2cpp_TypeInfo;
+extern TypeInfo IGoogleMobileAdsBannerClient_t575_il2cpp_TypeInfo;
+extern TypeInfo IGoogleMobileAdsInterstitialClient_t580_il2cpp_TypeInfo;
+extern TypeInfo GoogleMobileAdsClientFactory_t583_il2cpp_TypeInfo;
+extern TypeInfo Externs_t584_il2cpp_TypeInfo;
+extern TypeInfo GADUAdViewDidReceiveAdCallback_t585_il2cpp_TypeInfo;
+extern TypeInfo GADUAdViewDidFailToReceiveAdWithErrorCallback_t586_il2cpp_TypeInfo;
+extern TypeInfo GADUAdViewWillPresentScreenCallback_t587_il2cpp_TypeInfo;
+extern TypeInfo GADUAdViewWillDismissScreenCallback_t588_il2cpp_TypeInfo;
+extern TypeInfo GADUAdViewDidDismissScreenCallback_t589_il2cpp_TypeInfo;
+extern TypeInfo GADUAdViewWillLeaveApplicationCallback_t590_il2cpp_TypeInfo;
+extern TypeInfo IOSBannerClient_t598_il2cpp_TypeInfo;
+extern TypeInfo GADUInterstitialDidReceiveAdCallback_t591_il2cpp_TypeInfo;
+extern TypeInfo GADUInterstitialDidFailToReceiveAdWithErrorCallback_t592_il2cpp_TypeInfo;
+extern TypeInfo GADUInterstitialWillPresentScreenCallback_t593_il2cpp_TypeInfo;
+extern TypeInfo GADUInterstitialWillDismissScreenCallback_t594_il2cpp_TypeInfo;
+extern TypeInfo GADUInterstitialDidDismissScreenCallback_t595_il2cpp_TypeInfo;
+extern TypeInfo GADUInterstitialWillLeaveApplicationCallback_t596_il2cpp_TypeInfo;
+extern TypeInfo IOSInterstitialClient_t599_il2cpp_TypeInfo;
+extern TypeInfo MonoPInvokeCallbackAttribute_t600_il2cpp_TypeInfo;
+extern TypeInfo MusicPlayer_t602_il2cpp_TypeInfo;
+extern TypeInfo CameraSizeHandler_t603_il2cpp_TypeInfo;
+extern TypeInfo GameManager_t605_il2cpp_TypeInfo;
+extern TypeInfo DestroyScript_t606_il2cpp_TypeInfo;
+extern TypeInfo GoogleAds_t607_il2cpp_TypeInfo;
+extern TypeInfo HealthDisplay_t609_il2cpp_TypeInfo;
+extern TypeInfo U3CDisplayLoadingScreenU3Ec__Iterator0_t612_il2cpp_TypeInfo;
+extern TypeInfo LevelLoader_t611_il2cpp_TypeInfo;
+extern TypeInfo PlayerControl_t614_il2cpp_TypeInfo;
+extern TypeInfo PlayerManager_t608_il2cpp_TypeInfo;
+extern TypeInfo SelectObject_t615_il2cpp_TypeInfo;
+extern TypeInfo SimpleCameraFollow_t616_il2cpp_TypeInfo;
+extern TypeInfo Spawn_t617_il2cpp_TypeInfo;
+extern TypeInfo SpawnerSC_t618_il2cpp_TypeInfo;
+extern TypeInfo State_t619_il2cpp_TypeInfo;
+extern TypeInfo StateManager_t620_il2cpp_TypeInfo;
+extern TypeInfo UnityAnalyticsIntegration_t621_il2cpp_TypeInfo;
+extern TypeInfo scoreManager_t622_il2cpp_TypeInfo;
+extern TypeInfo SetAttributes_t623_il2cpp_TypeInfo;
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[59] = 
+{
+	&U3CModuleU3E_t552_il2cpp_TypeInfo,
+	&DontDestroy_t553_il2cpp_TypeInfo,
+	&Example_t554_il2cpp_TypeInfo,
+	&ExampleEventHandler_t555_il2cpp_TypeInfo,
+	&GUIState_t556_il2cpp_TypeInfo,
+	&ExampleWindow_t557_il2cpp_TypeInfo,
+	&MuffinRushAssets_t561_il2cpp_TypeInfo,
+	&FullScreenAdd_t563_il2cpp_TypeInfo,
+	&GameOverManager_t567_il2cpp_TypeInfo,
+	&GetScore_t568_il2cpp_TypeInfo,
+	&AdFailedToLoadEventArgs_t566_il2cpp_TypeInfo,
+	&AdPosition_t569_il2cpp_TypeInfo,
+	&Builder_t570_il2cpp_TypeInfo,
+	&AdRequest_t564_il2cpp_TypeInfo,
+	&AdSize_t574_il2cpp_TypeInfo,
+	&BannerView_t578_il2cpp_TypeInfo,
+	&Gender_t579_il2cpp_TypeInfo,
+	&InterstitialAd_t562_il2cpp_TypeInfo,
+	&DummyClient_t581_il2cpp_TypeInfo,
+	&IAdListener_t582_il2cpp_TypeInfo,
+	&IGoogleMobileAdsBannerClient_t575_il2cpp_TypeInfo,
+	&IGoogleMobileAdsInterstitialClient_t580_il2cpp_TypeInfo,
+	&GoogleMobileAdsClientFactory_t583_il2cpp_TypeInfo,
+	&Externs_t584_il2cpp_TypeInfo,
+	&GADUAdViewDidReceiveAdCallback_t585_il2cpp_TypeInfo,
+	&GADUAdViewDidFailToReceiveAdWithErrorCallback_t586_il2cpp_TypeInfo,
+	&GADUAdViewWillPresentScreenCallback_t587_il2cpp_TypeInfo,
+	&GADUAdViewWillDismissScreenCallback_t588_il2cpp_TypeInfo,
+	&GADUAdViewDidDismissScreenCallback_t589_il2cpp_TypeInfo,
+	&GADUAdViewWillLeaveApplicationCallback_t590_il2cpp_TypeInfo,
+	&IOSBannerClient_t598_il2cpp_TypeInfo,
+	&GADUInterstitialDidReceiveAdCallback_t591_il2cpp_TypeInfo,
+	&GADUInterstitialDidFailToReceiveAdWithErrorCallback_t592_il2cpp_TypeInfo,
+	&GADUInterstitialWillPresentScreenCallback_t593_il2cpp_TypeInfo,
+	&GADUInterstitialWillDismissScreenCallback_t594_il2cpp_TypeInfo,
+	&GADUInterstitialDidDismissScreenCallback_t595_il2cpp_TypeInfo,
+	&GADUInterstitialWillLeaveApplicationCallback_t596_il2cpp_TypeInfo,
+	&IOSInterstitialClient_t599_il2cpp_TypeInfo,
+	&MonoPInvokeCallbackAttribute_t600_il2cpp_TypeInfo,
+	&MusicPlayer_t602_il2cpp_TypeInfo,
+	&CameraSizeHandler_t603_il2cpp_TypeInfo,
+	&GameManager_t605_il2cpp_TypeInfo,
+	&DestroyScript_t606_il2cpp_TypeInfo,
+	&GoogleAds_t607_il2cpp_TypeInfo,
+	&HealthDisplay_t609_il2cpp_TypeInfo,
+	&U3CDisplayLoadingScreenU3Ec__Iterator0_t612_il2cpp_TypeInfo,
+	&LevelLoader_t611_il2cpp_TypeInfo,
+	&PlayerControl_t614_il2cpp_TypeInfo,
+	&PlayerManager_t608_il2cpp_TypeInfo,
+	&SelectObject_t615_il2cpp_TypeInfo,
+	&SimpleCameraFollow_t616_il2cpp_TypeInfo,
+	&Spawn_t617_il2cpp_TypeInfo,
+	&SpawnerSC_t618_il2cpp_TypeInfo,
+	&State_t619_il2cpp_TypeInfo,
+	&StateManager_t620_il2cpp_TypeInfo,
+	&UnityAnalyticsIntegration_t621_il2cpp_TypeInfo,
+	&scoreManager_t622_il2cpp_TypeInfo,
+	&SetAttributes_t623_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern CustomAttributesCache g_AssemblyU2DCSharp_Assembly__CustomAttributeCache;
+Il2CppAssembly g_AssemblyU2DCSharp_Assembly = 
+{
+	{ "Assembly-CSharp", 0, 0, 0, { 0 }, 32772, 0, 0, 0, 0, 0, 0 },
+	&g_AssemblyU2DCSharp_dll_Image,
+	&g_AssemblyU2DCSharp_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_AssemblyU2DCSharp_dll_Image = 
+{
+	 "Assembly-CSharp.dll" ,
+	&g_AssemblyU2DCSharp_Assembly,
+	g_AssemblyU2DCSharp_Assembly_Types,
+	58,
+	NULL,
+};
+static void s_AssemblyU2DCSharpRegistration()
+{
+	RegisterAssembly (&g_AssemblyU2DCSharp_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_AssemblyU2DCSharpRegistrationVariable(&s_AssemblyU2DCSharpRegistration, NULL);

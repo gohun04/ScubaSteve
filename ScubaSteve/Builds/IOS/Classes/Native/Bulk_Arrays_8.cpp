@@ -1,0 +1,2843 @@
+﻿#include "il2cpp_precompiled_header.h"
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo DateTimeKindU5BU5D_t5660_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.DateTimeKind[]
+static MethodInfo* DateTimeKindU5BU5D_t5660_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Object_Equals_m1252_MethodInfo;
+extern MethodInfo Object_Finalize_m1253_MethodInfo;
+extern MethodInfo Object_GetHashCode_m1254_MethodInfo;
+extern MethodInfo Object_ToString_m1255_MethodInfo;
+extern MethodInfo Array_GetEnumerator_m7776_MethodInfo;
+extern MethodInfo Array_System_Collections_ICollection_get_Count_m9456_MethodInfo;
+extern MethodInfo Array_get_IsSynchronized_m9472_MethodInfo;
+extern MethodInfo Array_get_SyncRoot_m9473_MethodInfo;
+extern MethodInfo Array_CopyTo_m7775_MethodInfo;
+extern MethodInfo Array_get_IsFixedSize_m9474_MethodInfo;
+extern MethodInfo Array_get_IsReadOnly_m9475_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_get_Item_m9447_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_set_Item_m9448_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_Add_m9449_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_Clear_m9450_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_Contains_m9451_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_IndexOf_m9452_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_Insert_m9453_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_Remove_m9454_MethodInfo;
+extern MethodInfo Array_System_Collections_IList_RemoveAt_m9455_MethodInfo;
+extern MethodInfo Array_Clone_m7605_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_get_Count_m9457_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisDateTimeKind_t2355_m41538_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Clear_m9459_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisDateTimeKind_t2355_m41539_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisDateTimeKind_t2355_m41540_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisDateTimeKind_t2355_m41541_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisDateTimeKind_t2355_m41542_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisDateTimeKind_t2355_m41543_MethodInfo;
+extern MethodInfo Array_InternalArray__RemoveAt_m9460_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisDateTimeKind_t2355_m41537_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisDateTimeKind_t2355_m41545_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisDateTimeKind_t2355_m41546_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo;
+static MethodInfo* DateTimeKindU5BU5D_t5660_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisDateTimeKind_t2355_m41538_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisDateTimeKind_t2355_m41539_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisDateTimeKind_t2355_m41540_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisDateTimeKind_t2355_m41541_MethodInfo,
+	&Array_InternalArray__IndexOf_TisDateTimeKind_t2355_m41542_MethodInfo,
+	&Array_InternalArray__Insert_TisDateTimeKind_t2355_m41543_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisDateTimeKind_t2355_m41537_MethodInfo,
+	&Array_InternalArray__set_Item_TisDateTimeKind_t2355_m41545_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisDateTimeKind_t2355_m41546_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9965_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9966_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9967_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t7826_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t7827_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t7828_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t7764_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t7765_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t7766_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t7725_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t7726_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t7727_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t7728_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t7729_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t7730_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t7743_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t7744_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t7745_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t2863_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t2889_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t446_il2cpp_TypeInfo;
+static TypeInfo* DateTimeKindU5BU5D_t5660_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9965_il2cpp_TypeInfo,
+	&IList_1_t9966_il2cpp_TypeInfo,
+	&IEnumerable_1_t9967_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+extern TypeInfo IEnumerable_t55_il2cpp_TypeInfo;
+extern TypeInfo ICloneable_t434_il2cpp_TypeInfo;
+extern TypeInfo ICollection_t1023_il2cpp_TypeInfo;
+extern TypeInfo IList_t1011_il2cpp_TypeInfo;
+static Il2CppInterfaceOffsetPair DateTimeKindU5BU5D_t5660_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9965_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9966_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9967_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType DateTimeKindU5BU5D_t5660_0_0_0;
+extern Il2CppType DateTimeKindU5BU5D_t5660_1_0_0;
+extern TypeInfo Array_t_il2cpp_TypeInfo;
+extern TypeInfo DateTimeKind_t2355_il2cpp_TypeInfo;
+extern TypeInfo Int32_t386_il2cpp_TypeInfo;
+extern CustomAttributesCache DateTimeKind_t2355__CustomAttributeCache;
+TypeInfo DateTimeKindU5BU5D_t5660_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "DateTimeKind[]"/* name */
+	, "System"/* namespaze */
+	, DateTimeKindU5BU5D_t5660_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &DateTimeKind_t2355_il2cpp_TypeInfo/* element_class */
+	, DateTimeKindU5BU5D_t5660_InterfacesTypeInfos/* implemented_interfaces */
+	, DateTimeKindU5BU5D_t5660_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &DateTimeKindU5BU5D_t5660_0_0_0/* byval_arg */
+	, &DateTimeKindU5BU5D_t5660_1_0_0/* this_arg */
+	, DateTimeKindU5BU5D_t5660_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo DayOfWeekU5BU5D_t5661_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.DayOfWeek[]
+static MethodInfo* DayOfWeekU5BU5D_t5661_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisDayOfWeek_t2358_m41549_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisDayOfWeek_t2358_m41550_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisDayOfWeek_t2358_m41551_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisDayOfWeek_t2358_m41552_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisDayOfWeek_t2358_m41553_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisDayOfWeek_t2358_m41554_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisDayOfWeek_t2358_m41548_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisDayOfWeek_t2358_m41556_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisDayOfWeek_t2358_m41557_MethodInfo;
+static MethodInfo* DayOfWeekU5BU5D_t5661_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisDayOfWeek_t2358_m41549_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisDayOfWeek_t2358_m41550_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisDayOfWeek_t2358_m41551_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisDayOfWeek_t2358_m41552_MethodInfo,
+	&Array_InternalArray__IndexOf_TisDayOfWeek_t2358_m41553_MethodInfo,
+	&Array_InternalArray__Insert_TisDayOfWeek_t2358_m41554_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisDayOfWeek_t2358_m41548_MethodInfo,
+	&Array_InternalArray__set_Item_TisDayOfWeek_t2358_m41556_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisDayOfWeek_t2358_m41557_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9968_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9969_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9970_il2cpp_TypeInfo;
+static TypeInfo* DayOfWeekU5BU5D_t5661_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9968_il2cpp_TypeInfo,
+	&IList_1_t9969_il2cpp_TypeInfo,
+	&IEnumerable_1_t9970_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair DayOfWeekU5BU5D_t5661_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9968_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9969_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9970_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType DayOfWeekU5BU5D_t5661_0_0_0;
+extern Il2CppType DayOfWeekU5BU5D_t5661_1_0_0;
+extern TypeInfo DayOfWeek_t2358_il2cpp_TypeInfo;
+extern CustomAttributesCache DayOfWeek_t2358__CustomAttributeCache;
+TypeInfo DayOfWeekU5BU5D_t5661_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "DayOfWeek[]"/* name */
+	, "System"/* namespaze */
+	, DayOfWeekU5BU5D_t5661_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &DayOfWeek_t2358_il2cpp_TypeInfo/* element_class */
+	, DayOfWeekU5BU5D_t5661_InterfacesTypeInfos/* implemented_interfaces */
+	, DayOfWeekU5BU5D_t5661_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &DayOfWeekU5BU5D_t5661_0_0_0/* byval_arg */
+	, &DayOfWeekU5BU5D_t5661_1_0_0/* this_arg */
+	, DayOfWeekU5BU5D_t5661_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo SpecialFolderU5BU5D_t5662_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.Environment/SpecialFolder[]
+static MethodInfo* SpecialFolderU5BU5D_t5662_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisSpecialFolder_t2370_m41560_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisSpecialFolder_t2370_m41561_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisSpecialFolder_t2370_m41562_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisSpecialFolder_t2370_m41563_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisSpecialFolder_t2370_m41564_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisSpecialFolder_t2370_m41565_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisSpecialFolder_t2370_m41559_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisSpecialFolder_t2370_m41567_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisSpecialFolder_t2370_m41568_MethodInfo;
+static MethodInfo* SpecialFolderU5BU5D_t5662_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisSpecialFolder_t2370_m41560_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisSpecialFolder_t2370_m41561_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisSpecialFolder_t2370_m41562_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisSpecialFolder_t2370_m41563_MethodInfo,
+	&Array_InternalArray__IndexOf_TisSpecialFolder_t2370_m41564_MethodInfo,
+	&Array_InternalArray__Insert_TisSpecialFolder_t2370_m41565_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisSpecialFolder_t2370_m41559_MethodInfo,
+	&Array_InternalArray__set_Item_TisSpecialFolder_t2370_m41567_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisSpecialFolder_t2370_m41568_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9971_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9972_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9973_il2cpp_TypeInfo;
+static TypeInfo* SpecialFolderU5BU5D_t5662_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9971_il2cpp_TypeInfo,
+	&IList_1_t9972_il2cpp_TypeInfo,
+	&IEnumerable_1_t9973_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair SpecialFolderU5BU5D_t5662_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9971_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9972_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9973_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType SpecialFolderU5BU5D_t5662_0_0_0;
+extern Il2CppType SpecialFolderU5BU5D_t5662_1_0_0;
+extern TypeInfo SpecialFolder_t2370_il2cpp_TypeInfo;
+extern CustomAttributesCache SpecialFolder_t2370__CustomAttributeCache;
+TypeInfo SpecialFolderU5BU5D_t5662_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "SpecialFolder[]"/* name */
+	, ""/* namespaze */
+	, SpecialFolderU5BU5D_t5662_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &SpecialFolder_t2370_il2cpp_TypeInfo/* element_class */
+	, SpecialFolderU5BU5D_t5662_InterfacesTypeInfos/* implemented_interfaces */
+	, SpecialFolderU5BU5D_t5662_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &SpecialFolderU5BU5D_t5662_0_0_0/* byval_arg */
+	, &SpecialFolderU5BU5D_t5662_1_0_0/* this_arg */
+	, SpecialFolderU5BU5D_t5662_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 258/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo LoaderOptimizationU5BU5D_t5663_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.LoaderOptimization[]
+static MethodInfo* LoaderOptimizationU5BU5D_t5663_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisLoaderOptimization_t2378_m41571_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisLoaderOptimization_t2378_m41572_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisLoaderOptimization_t2378_m41573_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisLoaderOptimization_t2378_m41574_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisLoaderOptimization_t2378_m41575_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisLoaderOptimization_t2378_m41576_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisLoaderOptimization_t2378_m41570_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisLoaderOptimization_t2378_m41578_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisLoaderOptimization_t2378_m41579_MethodInfo;
+static MethodInfo* LoaderOptimizationU5BU5D_t5663_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisLoaderOptimization_t2378_m41571_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisLoaderOptimization_t2378_m41572_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisLoaderOptimization_t2378_m41573_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisLoaderOptimization_t2378_m41574_MethodInfo,
+	&Array_InternalArray__IndexOf_TisLoaderOptimization_t2378_m41575_MethodInfo,
+	&Array_InternalArray__Insert_TisLoaderOptimization_t2378_m41576_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisLoaderOptimization_t2378_m41570_MethodInfo,
+	&Array_InternalArray__set_Item_TisLoaderOptimization_t2378_m41578_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisLoaderOptimization_t2378_m41579_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9974_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9975_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9976_il2cpp_TypeInfo;
+static TypeInfo* LoaderOptimizationU5BU5D_t5663_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9974_il2cpp_TypeInfo,
+	&IList_1_t9975_il2cpp_TypeInfo,
+	&IEnumerable_1_t9976_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair LoaderOptimizationU5BU5D_t5663_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9974_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9975_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9976_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType LoaderOptimizationU5BU5D_t5663_0_0_0;
+extern Il2CppType LoaderOptimizationU5BU5D_t5663_1_0_0;
+extern TypeInfo LoaderOptimization_t2378_il2cpp_TypeInfo;
+extern CustomAttributesCache LoaderOptimization_t2378__CustomAttributeCache;
+extern CustomAttributesCache LoaderOptimization_t2378__CustomAttributeCache_DomainMask;
+extern CustomAttributesCache LoaderOptimization_t2378__CustomAttributeCache_DisallowBindings;
+TypeInfo LoaderOptimizationU5BU5D_t5663_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "LoaderOptimization[]"/* name */
+	, "System"/* namespaze */
+	, LoaderOptimizationU5BU5D_t5663_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &LoaderOptimization_t2378_il2cpp_TypeInfo/* element_class */
+	, LoaderOptimizationU5BU5D_t5663_InterfacesTypeInfos/* implemented_interfaces */
+	, LoaderOptimizationU5BU5D_t5663_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &LoaderOptimizationU5BU5D_t5663_0_0_0/* byval_arg */
+	, &LoaderOptimizationU5BU5D_t5663_1_0_0/* this_arg */
+	, LoaderOptimizationU5BU5D_t5663_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo NonSerializedAttributeU5BU5D_t5664_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.NonSerializedAttribute[]
+static MethodInfo* NonSerializedAttributeU5BU5D_t5664_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisNonSerializedAttribute_t2392_m41582_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisNonSerializedAttribute_t2392_m41583_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisNonSerializedAttribute_t2392_m41584_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisNonSerializedAttribute_t2392_m41585_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisNonSerializedAttribute_t2392_m41586_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisNonSerializedAttribute_t2392_m41587_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisNonSerializedAttribute_t2392_m41581_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisNonSerializedAttribute_t2392_m41589_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisNonSerializedAttribute_t2392_m41590_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_TisAttribute_t601_m34769_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisAttribute_t601_m34770_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisAttribute_t601_m34771_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisAttribute_t601_m34772_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisAttribute_t601_m34773_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisAttribute_t601_m34774_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisAttribute_t601_m34768_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisAttribute_t601_m34776_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisAttribute_t601_m34777_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Add_Tis_Attribute_t632_m34780_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_Tis_Attribute_t632_m34781_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_Tis_Attribute_t632_m34782_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_Tis_Attribute_t632_m34783_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_Tis_Attribute_t632_m34784_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_Tis_Attribute_t632_m34785_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_Tis_Attribute_t632_m34779_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_Tis_Attribute_t632_m34787_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_Tis_Attribute_t632_m34788_MethodInfo;
+static MethodInfo* NonSerializedAttributeU5BU5D_t5664_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisNonSerializedAttribute_t2392_m41582_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisNonSerializedAttribute_t2392_m41583_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisNonSerializedAttribute_t2392_m41584_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisNonSerializedAttribute_t2392_m41585_MethodInfo,
+	&Array_InternalArray__IndexOf_TisNonSerializedAttribute_t2392_m41586_MethodInfo,
+	&Array_InternalArray__Insert_TisNonSerializedAttribute_t2392_m41587_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisNonSerializedAttribute_t2392_m41581_MethodInfo,
+	&Array_InternalArray__set_Item_TisNonSerializedAttribute_t2392_m41589_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisNonSerializedAttribute_t2392_m41590_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisAttribute_t601_m34769_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisAttribute_t601_m34770_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisAttribute_t601_m34771_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisAttribute_t601_m34772_MethodInfo,
+	&Array_InternalArray__IndexOf_TisAttribute_t601_m34773_MethodInfo,
+	&Array_InternalArray__Insert_TisAttribute_t601_m34774_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisAttribute_t601_m34768_MethodInfo,
+	&Array_InternalArray__set_Item_TisAttribute_t601_m34776_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisAttribute_t601_m34777_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_Tis_Attribute_t632_m34780_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_Tis_Attribute_t632_m34781_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_Tis_Attribute_t632_m34782_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_Tis_Attribute_t632_m34783_MethodInfo,
+	&Array_InternalArray__IndexOf_Tis_Attribute_t632_m34784_MethodInfo,
+	&Array_InternalArray__Insert_Tis_Attribute_t632_m34785_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_Tis_Attribute_t632_m34779_MethodInfo,
+	&Array_InternalArray__set_Item_Tis_Attribute_t632_m34787_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_Tis_Attribute_t632_m34788_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9977_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9978_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9979_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t8402_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t8403_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t8404_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t8405_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t8406_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t8407_il2cpp_TypeInfo;
+static TypeInfo* NonSerializedAttributeU5BU5D_t5664_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9977_il2cpp_TypeInfo,
+	&IList_1_t9978_il2cpp_TypeInfo,
+	&IEnumerable_1_t9979_il2cpp_TypeInfo,
+	&ICollection_1_t8402_il2cpp_TypeInfo,
+	&IList_1_t8403_il2cpp_TypeInfo,
+	&IEnumerable_1_t8404_il2cpp_TypeInfo,
+	&ICollection_1_t8405_il2cpp_TypeInfo,
+	&IList_1_t8406_il2cpp_TypeInfo,
+	&IEnumerable_1_t8407_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair NonSerializedAttributeU5BU5D_t5664_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9977_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9978_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9979_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t8402_il2cpp_TypeInfo, 34},
+	{ &IList_1_t8403_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t8404_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t8405_il2cpp_TypeInfo, 47},
+	{ &IList_1_t8406_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t8407_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 60},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 72},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType NonSerializedAttributeU5BU5D_t5664_0_0_0;
+extern Il2CppType NonSerializedAttributeU5BU5D_t5664_1_0_0;
+struct NonSerializedAttribute_t2392;
+extern TypeInfo NonSerializedAttribute_t2392_il2cpp_TypeInfo;
+extern CustomAttributesCache NonSerializedAttribute_t2392__CustomAttributeCache;
+TypeInfo NonSerializedAttributeU5BU5D_t5664_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "NonSerializedAttribute[]"/* name */
+	, "System"/* namespaze */
+	, NonSerializedAttributeU5BU5D_t5664_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &NonSerializedAttribute_t2392_il2cpp_TypeInfo/* element_class */
+	, NonSerializedAttributeU5BU5D_t5664_InterfacesTypeInfos/* implemented_interfaces */
+	, NonSerializedAttributeU5BU5D_t5664_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &NonSerializedAttributeU5BU5D_t5664_il2cpp_TypeInfo/* cast_class */
+	, &NonSerializedAttributeU5BU5D_t5664_0_0_0/* byval_arg */
+	, &NonSerializedAttributeU5BU5D_t5664_1_0_0/* this_arg */
+	, NonSerializedAttributeU5BU5D_t5664_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (NonSerializedAttribute_t2392 *)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048833/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 73/* vtable_count */
+	, 12/* interfaces_count */
+	, 16/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo PlatformIDU5BU5D_t5665_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.PlatformID[]
+static MethodInfo* PlatformIDU5BU5D_t5665_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisPlatformID_t2397_m41593_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisPlatformID_t2397_m41594_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisPlatformID_t2397_m41595_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisPlatformID_t2397_m41596_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisPlatformID_t2397_m41597_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisPlatformID_t2397_m41598_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisPlatformID_t2397_m41592_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisPlatformID_t2397_m41600_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisPlatformID_t2397_m41601_MethodInfo;
+static MethodInfo* PlatformIDU5BU5D_t5665_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisPlatformID_t2397_m41593_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisPlatformID_t2397_m41594_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisPlatformID_t2397_m41595_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisPlatformID_t2397_m41596_MethodInfo,
+	&Array_InternalArray__IndexOf_TisPlatformID_t2397_m41597_MethodInfo,
+	&Array_InternalArray__Insert_TisPlatformID_t2397_m41598_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisPlatformID_t2397_m41592_MethodInfo,
+	&Array_InternalArray__set_Item_TisPlatformID_t2397_m41600_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisPlatformID_t2397_m41601_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9980_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9981_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9982_il2cpp_TypeInfo;
+static TypeInfo* PlatformIDU5BU5D_t5665_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9980_il2cpp_TypeInfo,
+	&IList_1_t9981_il2cpp_TypeInfo,
+	&IEnumerable_1_t9982_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair PlatformIDU5BU5D_t5665_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9980_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9981_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9982_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType PlatformIDU5BU5D_t5665_0_0_0;
+extern Il2CppType PlatformIDU5BU5D_t5665_1_0_0;
+extern TypeInfo PlatformID_t2397_il2cpp_TypeInfo;
+extern CustomAttributesCache PlatformID_t2397__CustomAttributeCache;
+TypeInfo PlatformIDU5BU5D_t5665_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "PlatformID[]"/* name */
+	, "System"/* namespaze */
+	, PlatformIDU5BU5D_t5665_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &PlatformID_t2397_il2cpp_TypeInfo/* element_class */
+	, PlatformIDU5BU5D_t5665_InterfacesTypeInfos/* implemented_interfaces */
+	, PlatformIDU5BU5D_t5665_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &PlatformIDU5BU5D_t5665_0_0_0/* byval_arg */
+	, &PlatformIDU5BU5D_t5665_1_0_0/* this_arg */
+	, PlatformIDU5BU5D_t5665_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo StringComparisonU5BU5D_t5666_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.StringComparison[]
+static MethodInfo* StringComparisonU5BU5D_t5666_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisStringComparison_t2402_m41604_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisStringComparison_t2402_m41605_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisStringComparison_t2402_m41606_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisStringComparison_t2402_m41607_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisStringComparison_t2402_m41608_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisStringComparison_t2402_m41609_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisStringComparison_t2402_m41603_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisStringComparison_t2402_m41611_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisStringComparison_t2402_m41612_MethodInfo;
+static MethodInfo* StringComparisonU5BU5D_t5666_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisStringComparison_t2402_m41604_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisStringComparison_t2402_m41605_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisStringComparison_t2402_m41606_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisStringComparison_t2402_m41607_MethodInfo,
+	&Array_InternalArray__IndexOf_TisStringComparison_t2402_m41608_MethodInfo,
+	&Array_InternalArray__Insert_TisStringComparison_t2402_m41609_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisStringComparison_t2402_m41603_MethodInfo,
+	&Array_InternalArray__set_Item_TisStringComparison_t2402_m41611_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisStringComparison_t2402_m41612_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9983_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9984_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9985_il2cpp_TypeInfo;
+static TypeInfo* StringComparisonU5BU5D_t5666_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9983_il2cpp_TypeInfo,
+	&IList_1_t9984_il2cpp_TypeInfo,
+	&IEnumerable_1_t9985_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair StringComparisonU5BU5D_t5666_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9983_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9984_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9985_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType StringComparisonU5BU5D_t5666_0_0_0;
+extern Il2CppType StringComparisonU5BU5D_t5666_1_0_0;
+extern TypeInfo StringComparison_t2402_il2cpp_TypeInfo;
+extern CustomAttributesCache StringComparison_t2402__CustomAttributeCache;
+TypeInfo StringComparisonU5BU5D_t5666_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "StringComparison[]"/* name */
+	, "System"/* namespaze */
+	, StringComparisonU5BU5D_t5666_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &StringComparison_t2402_il2cpp_TypeInfo/* element_class */
+	, StringComparisonU5BU5D_t5666_InterfacesTypeInfos/* implemented_interfaces */
+	, StringComparisonU5BU5D_t5666_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &StringComparisonU5BU5D_t5666_0_0_0/* byval_arg */
+	, &StringComparisonU5BU5D_t5666_1_0_0/* this_arg */
+	, StringComparisonU5BU5D_t5666_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo StringSplitOptionsU5BU5D_t5667_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.StringSplitOptions[]
+static MethodInfo* StringSplitOptionsU5BU5D_t5667_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisStringSplitOptions_t2403_m41615_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisStringSplitOptions_t2403_m41616_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisStringSplitOptions_t2403_m41617_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisStringSplitOptions_t2403_m41618_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisStringSplitOptions_t2403_m41619_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisStringSplitOptions_t2403_m41620_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisStringSplitOptions_t2403_m41614_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisStringSplitOptions_t2403_m41622_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisStringSplitOptions_t2403_m41623_MethodInfo;
+static MethodInfo* StringSplitOptionsU5BU5D_t5667_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisStringSplitOptions_t2403_m41615_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisStringSplitOptions_t2403_m41616_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisStringSplitOptions_t2403_m41617_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisStringSplitOptions_t2403_m41618_MethodInfo,
+	&Array_InternalArray__IndexOf_TisStringSplitOptions_t2403_m41619_MethodInfo,
+	&Array_InternalArray__Insert_TisStringSplitOptions_t2403_m41620_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisStringSplitOptions_t2403_m41614_MethodInfo,
+	&Array_InternalArray__set_Item_TisStringSplitOptions_t2403_m41622_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisStringSplitOptions_t2403_m41623_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9986_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9987_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9988_il2cpp_TypeInfo;
+static TypeInfo* StringSplitOptionsU5BU5D_t5667_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9986_il2cpp_TypeInfo,
+	&IList_1_t9987_il2cpp_TypeInfo,
+	&IEnumerable_1_t9988_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair StringSplitOptionsU5BU5D_t5667_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9986_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9987_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9988_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType StringSplitOptionsU5BU5D_t5667_0_0_0;
+extern Il2CppType StringSplitOptionsU5BU5D_t5667_1_0_0;
+extern TypeInfo StringSplitOptions_t2403_il2cpp_TypeInfo;
+extern CustomAttributesCache StringSplitOptions_t2403__CustomAttributeCache;
+TypeInfo StringSplitOptionsU5BU5D_t5667_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "StringSplitOptions[]"/* name */
+	, "System"/* namespaze */
+	, StringSplitOptionsU5BU5D_t5667_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &StringSplitOptions_t2403_il2cpp_TypeInfo/* element_class */
+	, StringSplitOptionsU5BU5D_t5667_InterfacesTypeInfos/* implemented_interfaces */
+	, StringSplitOptionsU5BU5D_t5667_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &StringSplitOptionsU5BU5D_t5667_0_0_0/* byval_arg */
+	, &StringSplitOptionsU5BU5D_t5667_1_0_0/* this_arg */
+	, StringSplitOptionsU5BU5D_t5667_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 257/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo ThreadStaticAttributeU5BU5D_t5668_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.ThreadStaticAttribute[]
+static MethodInfo* ThreadStaticAttributeU5BU5D_t5668_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisThreadStaticAttribute_t2404_m41626_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisThreadStaticAttribute_t2404_m41627_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisThreadStaticAttribute_t2404_m41628_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisThreadStaticAttribute_t2404_m41629_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisThreadStaticAttribute_t2404_m41630_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisThreadStaticAttribute_t2404_m41631_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisThreadStaticAttribute_t2404_m41625_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisThreadStaticAttribute_t2404_m41633_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisThreadStaticAttribute_t2404_m41634_MethodInfo;
+static MethodInfo* ThreadStaticAttributeU5BU5D_t5668_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisThreadStaticAttribute_t2404_m41626_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisThreadStaticAttribute_t2404_m41627_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisThreadStaticAttribute_t2404_m41628_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisThreadStaticAttribute_t2404_m41629_MethodInfo,
+	&Array_InternalArray__IndexOf_TisThreadStaticAttribute_t2404_m41630_MethodInfo,
+	&Array_InternalArray__Insert_TisThreadStaticAttribute_t2404_m41631_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisThreadStaticAttribute_t2404_m41625_MethodInfo,
+	&Array_InternalArray__set_Item_TisThreadStaticAttribute_t2404_m41633_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisThreadStaticAttribute_t2404_m41634_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisAttribute_t601_m34769_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisAttribute_t601_m34770_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisAttribute_t601_m34771_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisAttribute_t601_m34772_MethodInfo,
+	&Array_InternalArray__IndexOf_TisAttribute_t601_m34773_MethodInfo,
+	&Array_InternalArray__Insert_TisAttribute_t601_m34774_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisAttribute_t601_m34768_MethodInfo,
+	&Array_InternalArray__set_Item_TisAttribute_t601_m34776_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisAttribute_t601_m34777_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_Tis_Attribute_t632_m34780_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_Tis_Attribute_t632_m34781_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_Tis_Attribute_t632_m34782_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_Tis_Attribute_t632_m34783_MethodInfo,
+	&Array_InternalArray__IndexOf_Tis_Attribute_t632_m34784_MethodInfo,
+	&Array_InternalArray__Insert_Tis_Attribute_t632_m34785_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_Tis_Attribute_t632_m34779_MethodInfo,
+	&Array_InternalArray__set_Item_Tis_Attribute_t632_m34787_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_Tis_Attribute_t632_m34788_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9989_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9990_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9991_il2cpp_TypeInfo;
+static TypeInfo* ThreadStaticAttributeU5BU5D_t5668_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9989_il2cpp_TypeInfo,
+	&IList_1_t9990_il2cpp_TypeInfo,
+	&IEnumerable_1_t9991_il2cpp_TypeInfo,
+	&ICollection_1_t8402_il2cpp_TypeInfo,
+	&IList_1_t8403_il2cpp_TypeInfo,
+	&IEnumerable_1_t8404_il2cpp_TypeInfo,
+	&ICollection_1_t8405_il2cpp_TypeInfo,
+	&IList_1_t8406_il2cpp_TypeInfo,
+	&IEnumerable_1_t8407_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair ThreadStaticAttributeU5BU5D_t5668_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9989_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9990_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9991_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t8402_il2cpp_TypeInfo, 34},
+	{ &IList_1_t8403_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t8404_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t8405_il2cpp_TypeInfo, 47},
+	{ &IList_1_t8406_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t8407_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 60},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 72},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType ThreadStaticAttributeU5BU5D_t5668_0_0_0;
+extern Il2CppType ThreadStaticAttributeU5BU5D_t5668_1_0_0;
+struct ThreadStaticAttribute_t2404;
+extern TypeInfo ThreadStaticAttribute_t2404_il2cpp_TypeInfo;
+extern CustomAttributesCache ThreadStaticAttribute_t2404__CustomAttributeCache;
+TypeInfo ThreadStaticAttributeU5BU5D_t5668_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "ThreadStaticAttribute[]"/* name */
+	, "System"/* namespaze */
+	, ThreadStaticAttributeU5BU5D_t5668_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &ThreadStaticAttribute_t2404_il2cpp_TypeInfo/* element_class */
+	, ThreadStaticAttributeU5BU5D_t5668_InterfacesTypeInfos/* implemented_interfaces */
+	, ThreadStaticAttributeU5BU5D_t5668_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &ThreadStaticAttributeU5BU5D_t5668_il2cpp_TypeInfo/* cast_class */
+	, &ThreadStaticAttributeU5BU5D_t5668_0_0_0/* byval_arg */
+	, &ThreadStaticAttributeU5BU5D_t5668_1_0_0/* this_arg */
+	, ThreadStaticAttributeU5BU5D_t5668_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (ThreadStaticAttribute_t2404 *)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1056769/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 73/* vtable_count */
+	, 12/* interfaces_count */
+	, 16/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo TypeCodeU5BU5D_t5669_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.TypeCode[]
+static MethodInfo* TypeCodeU5BU5D_t5669_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisTypeCode_t2406_m41637_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisTypeCode_t2406_m41638_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisTypeCode_t2406_m41639_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisTypeCode_t2406_m41640_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisTypeCode_t2406_m41641_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisTypeCode_t2406_m41642_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisTypeCode_t2406_m41636_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisTypeCode_t2406_m41644_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisTypeCode_t2406_m41645_MethodInfo;
+static MethodInfo* TypeCodeU5BU5D_t5669_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisTypeCode_t2406_m41637_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisTypeCode_t2406_m41638_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisTypeCode_t2406_m41639_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisTypeCode_t2406_m41640_MethodInfo,
+	&Array_InternalArray__IndexOf_TisTypeCode_t2406_m41641_MethodInfo,
+	&Array_InternalArray__Insert_TisTypeCode_t2406_m41642_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisTypeCode_t2406_m41636_MethodInfo,
+	&Array_InternalArray__set_Item_TisTypeCode_t2406_m41644_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisTypeCode_t2406_m41645_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9992_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9993_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9994_il2cpp_TypeInfo;
+static TypeInfo* TypeCodeU5BU5D_t5669_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9992_il2cpp_TypeInfo,
+	&IList_1_t9993_il2cpp_TypeInfo,
+	&IEnumerable_1_t9994_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair TypeCodeU5BU5D_t5669_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9992_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9993_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9994_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType TypeCodeU5BU5D_t5669_0_0_0;
+extern Il2CppType TypeCodeU5BU5D_t5669_1_0_0;
+extern TypeInfo TypeCode_t2406_il2cpp_TypeInfo;
+extern CustomAttributesCache TypeCode_t2406__CustomAttributeCache;
+TypeInfo TypeCodeU5BU5D_t5669_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "TypeCode[]"/* name */
+	, "System"/* namespaze */
+	, TypeCodeU5BU5D_t5669_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &TypeCode_t2406_il2cpp_TypeInfo/* element_class */
+	, TypeCodeU5BU5D_t5669_InterfacesTypeInfos/* implemented_interfaces */
+	, TypeCodeU5BU5D_t5669_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Int32_t386_il2cpp_TypeInfo/* cast_class */
+	, &TypeCodeU5BU5D_t5669_0_0_0/* byval_arg */
+	, &TypeCodeU5BU5D_t5669_1_0_0/* this_arg */
+	, TypeCodeU5BU5D_t5669_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (int32_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 8449/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo UnityTypeU5BU5D_t5670_il2cpp_TypeInfo;
+
+
+
+// Metadata Definition System.UnitySerializationHolder/UnityType[]
+static MethodInfo* UnityTypeU5BU5D_t5670_MethodInfos[] =
+{
+	NULL
+};
+extern MethodInfo Array_InternalArray__ICollection_Add_TisUnityType_t2409_m41648_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Contains_TisUnityType_t2409_m41649_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_CopyTo_TisUnityType_t2409_m41650_MethodInfo;
+extern MethodInfo Array_InternalArray__ICollection_Remove_TisUnityType_t2409_m41651_MethodInfo;
+extern MethodInfo Array_InternalArray__IndexOf_TisUnityType_t2409_m41652_MethodInfo;
+extern MethodInfo Array_InternalArray__Insert_TisUnityType_t2409_m41653_MethodInfo;
+extern MethodInfo Array_InternalArray__get_Item_TisUnityType_t2409_m41647_MethodInfo;
+extern MethodInfo Array_InternalArray__set_Item_TisUnityType_t2409_m41655_MethodInfo;
+extern MethodInfo Array_InternalArray__IEnumerable_GetEnumerator_TisUnityType_t2409_m41656_MethodInfo;
+static MethodInfo* UnityTypeU5BU5D_t5670_VTable[] =
+{
+	&Object_Equals_m1252_MethodInfo,
+	&Object_Finalize_m1253_MethodInfo,
+	&Object_GetHashCode_m1254_MethodInfo,
+	&Object_ToString_m1255_MethodInfo,
+	&Array_GetEnumerator_m7776_MethodInfo,
+	&Array_System_Collections_ICollection_get_Count_m9456_MethodInfo,
+	&Array_get_IsSynchronized_m9472_MethodInfo,
+	&Array_get_SyncRoot_m9473_MethodInfo,
+	&Array_CopyTo_m7775_MethodInfo,
+	&Array_get_IsFixedSize_m9474_MethodInfo,
+	&Array_get_IsReadOnly_m9475_MethodInfo,
+	&Array_System_Collections_IList_get_Item_m9447_MethodInfo,
+	&Array_System_Collections_IList_set_Item_m9448_MethodInfo,
+	&Array_System_Collections_IList_Add_m9449_MethodInfo,
+	&Array_System_Collections_IList_Clear_m9450_MethodInfo,
+	&Array_System_Collections_IList_Contains_m9451_MethodInfo,
+	&Array_System_Collections_IList_IndexOf_m9452_MethodInfo,
+	&Array_System_Collections_IList_Insert_m9453_MethodInfo,
+	&Array_System_Collections_IList_Remove_m9454_MethodInfo,
+	&Array_System_Collections_IList_RemoveAt_m9455_MethodInfo,
+	&Array_Clone_m7605_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisUnityType_t2409_m41648_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisUnityType_t2409_m41649_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisUnityType_t2409_m41650_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisUnityType_t2409_m41651_MethodInfo,
+	&Array_InternalArray__IndexOf_TisUnityType_t2409_m41652_MethodInfo,
+	&Array_InternalArray__Insert_TisUnityType_t2409_m41653_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisUnityType_t2409_m41647_MethodInfo,
+	&Array_InternalArray__set_Item_TisUnityType_t2409_m41655_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisUnityType_t2409_m41656_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisEnum_t443_m32092_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisEnum_t443_m32093_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisEnum_t443_m32094_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisEnum_t443_m32095_MethodInfo,
+	&Array_InternalArray__IndexOf_TisEnum_t443_m32096_MethodInfo,
+	&Array_InternalArray__Insert_TisEnum_t443_m32097_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisEnum_t443_m32091_MethodInfo,
+	&Array_InternalArray__set_Item_TisEnum_t443_m32099_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisEnum_t443_m32100_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIFormattable_t440_m31598_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIFormattable_t440_m31599_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIFormattable_t440_m31600_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIFormattable_t440_m31601_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIFormattable_t440_m31602_MethodInfo,
+	&Array_InternalArray__Insert_TisIFormattable_t440_m31603_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIFormattable_t440_m31597_MethodInfo,
+	&Array_InternalArray__set_Item_TisIFormattable_t440_m31605_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIFormattable_t440_m31606_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIConvertible_t441_m31426_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIConvertible_t441_m31427_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIConvertible_t441_m31428_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIConvertible_t441_m31429_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIConvertible_t441_m31430_MethodInfo,
+	&Array_InternalArray__Insert_TisIConvertible_t441_m31431_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIConvertible_t441_m31425_MethodInfo,
+	&Array_InternalArray__set_Item_TisIConvertible_t441_m31433_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIConvertible_t441_m31434_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisIComparable_t442_m31437_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisIComparable_t442_m31438_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisIComparable_t442_m31439_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisIComparable_t442_m31440_MethodInfo,
+	&Array_InternalArray__IndexOf_TisIComparable_t442_m31441_MethodInfo,
+	&Array_InternalArray__Insert_TisIComparable_t442_m31442_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisIComparable_t442_m31436_MethodInfo,
+	&Array_InternalArray__set_Item_TisIComparable_t442_m31444_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisIComparable_t442_m31445_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisValueType_t550_m31503_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisValueType_t550_m31504_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisValueType_t550_m31505_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisValueType_t550_m31506_MethodInfo,
+	&Array_InternalArray__IndexOf_TisValueType_t550_m31507_MethodInfo,
+	&Array_InternalArray__Insert_TisValueType_t550_m31508_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisValueType_t550_m31502_MethodInfo,
+	&Array_InternalArray__set_Item_TisValueType_t550_m31510_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisValueType_t550_m31511_MethodInfo,
+	&Array_InternalArray__ICollection_get_Count_m9457_MethodInfo,
+	&Array_InternalArray__ICollection_get_IsReadOnly_m9458_MethodInfo,
+	&Array_InternalArray__ICollection_Add_TisObject_t_m31407_MethodInfo,
+	&Array_InternalArray__ICollection_Clear_m9459_MethodInfo,
+	&Array_InternalArray__ICollection_Contains_TisObject_t_m31409_MethodInfo,
+	&Array_InternalArray__ICollection_CopyTo_TisObject_t_m31411_MethodInfo,
+	&Array_InternalArray__ICollection_Remove_TisObject_t_m31412_MethodInfo,
+	&Array_InternalArray__IndexOf_TisObject_t_m31413_MethodInfo,
+	&Array_InternalArray__Insert_TisObject_t_m31414_MethodInfo,
+	&Array_InternalArray__RemoveAt_m9460_MethodInfo,
+	&Array_InternalArray__get_Item_TisObject_t_m31403_MethodInfo,
+	&Array_InternalArray__set_Item_TisObject_t_m31416_MethodInfo,
+	&Array_InternalArray__IEnumerable_GetEnumerator_TisObject_t_m31417_MethodInfo,
+};
+extern TypeInfo ICollection_1_t9995_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t9996_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t9997_il2cpp_TypeInfo;
+static TypeInfo* UnityTypeU5BU5D_t5670_InterfacesTypeInfos[] = 
+{
+	&ICollection_1_t9995_il2cpp_TypeInfo,
+	&IList_1_t9996_il2cpp_TypeInfo,
+	&IEnumerable_1_t9997_il2cpp_TypeInfo,
+	&ICollection_1_t7826_il2cpp_TypeInfo,
+	&IList_1_t7827_il2cpp_TypeInfo,
+	&IEnumerable_1_t7828_il2cpp_TypeInfo,
+	&ICollection_1_t7764_il2cpp_TypeInfo,
+	&IList_1_t7765_il2cpp_TypeInfo,
+	&IEnumerable_1_t7766_il2cpp_TypeInfo,
+	&ICollection_1_t7725_il2cpp_TypeInfo,
+	&IList_1_t7726_il2cpp_TypeInfo,
+	&IEnumerable_1_t7727_il2cpp_TypeInfo,
+	&ICollection_1_t7728_il2cpp_TypeInfo,
+	&IList_1_t7729_il2cpp_TypeInfo,
+	&IEnumerable_1_t7730_il2cpp_TypeInfo,
+	&ICollection_1_t7743_il2cpp_TypeInfo,
+	&IList_1_t7744_il2cpp_TypeInfo,
+	&IEnumerable_1_t7745_il2cpp_TypeInfo,
+	&ICollection_1_t2863_il2cpp_TypeInfo,
+	&IList_1_t2889_il2cpp_TypeInfo,
+	&IEnumerable_1_t446_il2cpp_TypeInfo,
+};
+static Il2CppInterfaceOffsetPair UnityTypeU5BU5D_t5670_InterfacesOffsets[] = 
+{
+	{ &IEnumerable_t55_il2cpp_TypeInfo, 4},
+	{ &ICloneable_t434_il2cpp_TypeInfo, 5},
+	{ &ICollection_t1023_il2cpp_TypeInfo, 5},
+	{ &IList_t1011_il2cpp_TypeInfo, 9},
+	{ &ICollection_1_t9995_il2cpp_TypeInfo, 21},
+	{ &IList_1_t9996_il2cpp_TypeInfo, 28},
+	{ &IEnumerable_1_t9997_il2cpp_TypeInfo, 33},
+	{ &ICollection_1_t7826_il2cpp_TypeInfo, 34},
+	{ &IList_1_t7827_il2cpp_TypeInfo, 41},
+	{ &IEnumerable_1_t7828_il2cpp_TypeInfo, 46},
+	{ &ICollection_1_t7764_il2cpp_TypeInfo, 47},
+	{ &IList_1_t7765_il2cpp_TypeInfo, 54},
+	{ &IEnumerable_1_t7766_il2cpp_TypeInfo, 59},
+	{ &ICollection_1_t7725_il2cpp_TypeInfo, 60},
+	{ &IList_1_t7726_il2cpp_TypeInfo, 67},
+	{ &IEnumerable_1_t7727_il2cpp_TypeInfo, 72},
+	{ &ICollection_1_t7728_il2cpp_TypeInfo, 73},
+	{ &IList_1_t7729_il2cpp_TypeInfo, 80},
+	{ &IEnumerable_1_t7730_il2cpp_TypeInfo, 85},
+	{ &ICollection_1_t7743_il2cpp_TypeInfo, 86},
+	{ &IList_1_t7744_il2cpp_TypeInfo, 93},
+	{ &IEnumerable_1_t7745_il2cpp_TypeInfo, 98},
+	{ &ICollection_1_t2863_il2cpp_TypeInfo, 99},
+	{ &IList_1_t2889_il2cpp_TypeInfo, 106},
+	{ &IEnumerable_1_t446_il2cpp_TypeInfo, 111},
+};
+extern Il2CppImage g_mscorlib_dll_Image;
+extern Il2CppType UnityTypeU5BU5D_t5670_0_0_0;
+extern Il2CppType UnityTypeU5BU5D_t5670_1_0_0;
+extern TypeInfo UnityType_t2409_il2cpp_TypeInfo;
+extern TypeInfo Byte_t493_il2cpp_TypeInfo;
+TypeInfo UnityTypeU5BU5D_t5670_il2cpp_TypeInfo = 
+{
+	&g_mscorlib_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "UnityType[]"/* name */
+	, ""/* namespaze */
+	, UnityTypeU5BU5D_t5670_MethodInfos/* methods */
+	, NULL/* properties */
+	, NULL/* fields */
+	, NULL/* events */
+	, &Array_t_il2cpp_TypeInfo/* parent */
+	, NULL/* nested_types */
+	, NULL/* nested_in */
+	, &UnityType_t2409_il2cpp_TypeInfo/* element_class */
+	, UnityTypeU5BU5D_t5670_InterfacesTypeInfos/* implemented_interfaces */
+	, UnityTypeU5BU5D_t5670_VTable/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &Byte_t493_il2cpp_TypeInfo/* cast_class */
+	, &UnityTypeU5BU5D_t5670_0_0_0/* byval_arg */
+	, &UnityTypeU5BU5D_t5670_1_0_0/* this_arg */
+	, UnityTypeU5BU5D_t5670_InterfacesOffsets/* interface_offsets */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (Array_t)/* instance_size */
+	, sizeof (uint8_t)/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 259/* flags */
+	, 1/* rank */
+	, false/* valuetype */
+	, false/* is_interface */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, true/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, false/* is_pinnable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 0/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 112/* vtable_count */
+	, 21/* interfaces_count */
+	, 25/* interface_offsets_count */
+
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

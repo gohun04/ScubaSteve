@@ -1,0 +1,545 @@
+﻿#include "il2cpp_precompiled_header.h"
+
+#ifndef _MSC_VER
+#else
+#endif
+
+extern TypeInfo U3CModuleU3E_t0_il2cpp_TypeInfo;
+extern TypeInfo KeyValueStorageAndroid_t1_il2cpp_TypeInfo;
+extern TypeInfo RewardStorageAndroid_t3_il2cpp_TypeInfo;
+extern TypeInfo CoreSettings_t5_il2cpp_TypeInfo;
+extern TypeInfo ISoomlaPostBuildTool_t383_il2cpp_TypeInfo;
+extern TypeInfo ISoomlaSettings_t382_il2cpp_TypeInfo;
+extern TypeInfo ObjectKvp_t6_il2cpp_TypeInfo;
+extern TypeInfo U3CSetKeyValuePairU3Ec__AnonStorey13_t8_il2cpp_TypeInfo;
+extern TypeInfo ObjectDictionary_t12_il2cpp_TypeInfo;
+extern TypeInfo SoomlaEditorScript_t16_il2cpp_TypeInfo;
+extern TypeInfo SoomlaPostBuildTools_t18_il2cpp_TypeInfo;
+extern TypeInfo UnityNameValuePair_1_t19_il2cpp_TypeInfo;
+extern TypeInfo UnityKeyValuePair_2_t20_il2cpp_TypeInfo;
+extern TypeInfo UnityDictionaryEnumerator_t21_il2cpp_TypeInfo;
+extern TypeInfo U3CU3Ec__AnonStorey10_t22_il2cpp_TypeInfo;
+extern TypeInfo U3CRemoveU3Ec__AnonStorey11_t23_il2cpp_TypeInfo;
+extern TypeInfo U3CContainsKeyU3Ec__AnonStorey12_t24_il2cpp_TypeInfo;
+extern TypeInfo UnityDictionary_2_t25_il2cpp_TypeInfo;
+extern TypeInfo UnityDictionary_1_t27_il2cpp_TypeInfo;
+extern TypeInfo ISoomlaManifestTools_t433_il2cpp_TypeInfo;
+extern TypeInfo SoomlaAndroidUtil_t28_il2cpp_TypeInfo;
+extern TypeInfo SoomlaManifestTools_t29_il2cpp_TypeInfo;
+extern TypeInfo Action_t33_il2cpp_TypeInfo;
+extern TypeInfo CoreEvents_t36_il2cpp_TypeInfo;
+extern TypeInfo KeyValueStorageIOS_t42_il2cpp_TypeInfo;
+extern TypeInfo RewardStorageIOS_t43_il2cpp_TypeInfo;
+extern TypeInfo Type_t46_il2cpp_TypeInfo;
+extern TypeInfo AddJSONConents_t48_il2cpp_TypeInfo;
+extern TypeInfo FieldNotFound_t49_il2cpp_TypeInfo;
+extern TypeInfo GetFieldResponse_t50_il2cpp_TypeInfo;
+extern TypeInfo U3CBakeAsyncU3Ec__Iterator0_t52_il2cpp_TypeInfo;
+extern TypeInfo U3CPrintAsyncU3Ec__Iterator1_t56_il2cpp_TypeInfo;
+extern TypeInfo U3CStringifyAsyncU3Ec__Iterator2_t57_il2cpp_TypeInfo;
+extern TypeInfo JSONObject_t47_il2cpp_TypeInfo;
+extern TypeInfo NullCheckable_t62_il2cpp_TypeInfo;
+extern TypeInfo Recurrence_t68_il2cpp_TypeInfo;
+extern TypeInfo DateTimeRange_t69_il2cpp_TypeInfo;
+extern TypeInfo Schedule_t71_il2cpp_TypeInfo;
+extern TypeInfo SoomlaEntity_1_t72_il2cpp_TypeInfo;
+extern TypeInfo SoomlaExtensions_t73_il2cpp_TypeInfo;
+extern TypeInfo SoomlaUtils_t74_il2cpp_TypeInfo;
+extern TypeInfo JSONConsts_t75_il2cpp_TypeInfo;
+extern TypeInfo KeyValueStorage_t2_il2cpp_TypeInfo;
+extern TypeInfo RewardStorage_t4_il2cpp_TypeInfo;
+extern TypeInfo BadgeReward_t76_il2cpp_TypeInfo;
+extern TypeInfo RandomReward_t78_il2cpp_TypeInfo;
+extern TypeInfo Reward_t40_il2cpp_TypeInfo;
+extern TypeInfo SequenceReward_t44_il2cpp_TypeInfo;
+extern TypeInfo AndroidJNIHandler_t81_il2cpp_TypeInfo;
+extern TypeInfo SoomlaStoreAndroid_t82_il2cpp_TypeInfo;
+extern TypeInfo StoreEventPusherAndroid_t84_il2cpp_TypeInfo;
+extern TypeInfo StoreInfoAndroid_t86_il2cpp_TypeInfo;
+extern TypeInfo VirtualCurrencyStorageAndroid_t88_il2cpp_TypeInfo;
+extern TypeInfo VirtualGoodsStorageAndroid_t90_il2cpp_TypeInfo;
+extern TypeInfo StoreManifestTools_t92_il2cpp_TypeInfo;
+extern TypeInfo StoreSettings_t93_il2cpp_TypeInfo;
+extern TypeInfo IOS_ErrorCodes_t94_il2cpp_TypeInfo;
+extern TypeInfo SoomlaStoreIOS_t95_il2cpp_TypeInfo;
+extern TypeInfo StoreEventPusherIOS_t96_il2cpp_TypeInfo;
+extern TypeInfo StoreInfoIOS_t97_il2cpp_TypeInfo;
+extern TypeInfo VirtualCurrencyStorageIOS_t99_il2cpp_TypeInfo;
+extern TypeInfo VirtualGoodsStorageIOS_t101_il2cpp_TypeInfo;
+extern TypeInfo IStoreAssets_t98_il2cpp_TypeInfo;
+extern TypeInfo SoomlaStore_t83_il2cpp_TypeInfo;
+extern TypeInfo StoreEventPusher_t85_il2cpp_TypeInfo;
+extern TypeInfo RunLaterDelegate_t107_il2cpp_TypeInfo;
+extern TypeInfo Action_t108_il2cpp_TypeInfo;
+extern TypeInfo U3CRunLaterPrivU3Ec__Iterator3_t109_il2cpp_TypeInfo;
+extern TypeInfo StoreEvents_t110_il2cpp_TypeInfo;
+extern TypeInfo LocalUpgrade_t122_il2cpp_TypeInfo;
+extern TypeInfo StoreInventory_t126_il2cpp_TypeInfo;
+extern TypeInfo StoreInfo_t87_il2cpp_TypeInfo;
+extern TypeInfo StoreJSONConsts_t139_il2cpp_TypeInfo;
+extern TypeInfo VirtualCurrencyStorage_t89_il2cpp_TypeInfo;
+extern TypeInfo VirtualGoodsStorage_t91_il2cpp_TypeInfo;
+extern TypeInfo VirtualItemStorage_t140_il2cpp_TypeInfo;
+extern TypeInfo Consumable_t141_il2cpp_TypeInfo;
+extern TypeInfo MarketItem_t142_il2cpp_TypeInfo;
+extern TypeInfo PurchasableVirtualItem_t106_il2cpp_TypeInfo;
+extern TypeInfo VirtualCategory_t136_il2cpp_TypeInfo;
+extern TypeInfo VirtualItem_t100_il2cpp_TypeInfo;
+extern TypeInfo VirtualCurrency_t105_il2cpp_TypeInfo;
+extern TypeInfo VirtualCurrencyPack_t145_il2cpp_TypeInfo;
+extern TypeInfo EquippingModel_t146_il2cpp_TypeInfo;
+extern TypeInfo EquippableVG_t104_il2cpp_TypeInfo;
+extern TypeInfo LifetimeVG_t147_il2cpp_TypeInfo;
+extern TypeInfo SingleUsePackVG_t148_il2cpp_TypeInfo;
+extern TypeInfo SingleUseVG_t149_il2cpp_TypeInfo;
+extern TypeInfo UpgradeVG_t103_il2cpp_TypeInfo;
+extern TypeInfo VirtualGood_t102_il2cpp_TypeInfo;
+extern TypeInfo InsufficientFundsException_t150_il2cpp_TypeInfo;
+extern TypeInfo NotEnoughGoodsException_t152_il2cpp_TypeInfo;
+extern TypeInfo VirtualItemNotFoundException_t153_il2cpp_TypeInfo;
+extern TypeInfo PurchaseType_t143_il2cpp_TypeInfo;
+extern TypeInfo PurchaseWithMarket_t154_il2cpp_TypeInfo;
+extern TypeInfo U3CBuyU3Ec__AnonStorey14_t156_il2cpp_TypeInfo;
+extern TypeInfo PurchaseWithVirtualItem_t155_il2cpp_TypeInfo;
+extern TypeInfo VirtualItemReward_t157_il2cpp_TypeInfo;
+extern TypeInfo PlatformWrapper_t158_il2cpp_TypeInfo;
+extern TypeInfo BasePlatformWrapper_t161_il2cpp_TypeInfo;
+extern TypeInfo SexEnum_t164_il2cpp_TypeInfo;
+extern TypeInfo AnalyticsResult_t165_il2cpp_TypeInfo;
+extern TypeInfo LogLevel_t166_il2cpp_TypeInfo;
+extern TypeInfo UnityAnalytics_t168_il2cpp_TypeInfo;
+extern TypeInfo iOSWrapper_t172_il2cpp_TypeInfo;
+extern TypeInfo Camera2DFollow_t174_il2cpp_TypeInfo;
+extern TypeInfo CameraFollow_t176_il2cpp_TypeInfo;
+extern TypeInfo Platformer2DUserControl_t179_il2cpp_TypeInfo;
+extern TypeInfo PlatformerCharacter2D_t178_il2cpp_TypeInfo;
+extern TypeInfo Restarter_t183_il2cpp_TypeInfo;
+extern TypeInfo AxisTouchButton_t185_il2cpp_TypeInfo;
+extern TypeInfo ButtonHandler_t188_il2cpp_TypeInfo;
+extern TypeInfo ActiveInputMethod_t189_il2cpp_TypeInfo;
+extern TypeInfo VirtualAxis_t186_il2cpp_TypeInfo;
+extern TypeInfo VirtualButton_t190_il2cpp_TypeInfo;
+extern TypeInfo CrossPlatformInputManager_t192_il2cpp_TypeInfo;
+extern TypeInfo InputAxisScrollbar_t193_il2cpp_TypeInfo;
+extern TypeInfo AxisOption_t194_il2cpp_TypeInfo;
+extern TypeInfo Joystick_t195_il2cpp_TypeInfo;
+extern TypeInfo MobileControlRig_t196_il2cpp_TypeInfo;
+extern TypeInfo MobileInput_t197_il2cpp_TypeInfo;
+extern TypeInfo StandaloneInput_t198_il2cpp_TypeInfo;
+extern TypeInfo AxisOptions_t199_il2cpp_TypeInfo;
+extern TypeInfo MappingType_t200_il2cpp_TypeInfo;
+extern TypeInfo AxisMapping_t201_il2cpp_TypeInfo;
+extern TypeInfo TiltInput_t202_il2cpp_TypeInfo;
+extern TypeInfo AxisOption_t203_il2cpp_TypeInfo;
+extern TypeInfo ControlStyle_t204_il2cpp_TypeInfo;
+extern TypeInfo TouchPad_t206_il2cpp_TypeInfo;
+extern TypeInfo VirtualInput_t191_il2cpp_TypeInfo;
+extern TypeInfo AAMode_t209_il2cpp_TypeInfo;
+extern TypeInfo Antialiasing_t212_il2cpp_TypeInfo;
+extern TypeInfo LensFlareStyle_t215_il2cpp_TypeInfo;
+extern TypeInfo TweakMode_t216_il2cpp_TypeInfo;
+extern TypeInfo HDRBloomMode_t217_il2cpp_TypeInfo;
+extern TypeInfo BloomScreenBlendMode_t218_il2cpp_TypeInfo;
+extern TypeInfo BloomQuality_t219_il2cpp_TypeInfo;
+extern TypeInfo Bloom_t221_il2cpp_TypeInfo;
+extern TypeInfo LensflareStyle34_t223_il2cpp_TypeInfo;
+extern TypeInfo TweakMode34_t224_il2cpp_TypeInfo;
+extern TypeInfo HDRBloomMode_t225_il2cpp_TypeInfo;
+extern TypeInfo BloomScreenBlendMode_t226_il2cpp_TypeInfo;
+extern TypeInfo BloomAndFlares_t227_il2cpp_TypeInfo;
+extern TypeInfo Resolution_t228_il2cpp_TypeInfo;
+extern TypeInfo BlurType_t229_il2cpp_TypeInfo;
+extern TypeInfo BloomOptimized_t230_il2cpp_TypeInfo;
+extern TypeInfo Blur_t231_il2cpp_TypeInfo;
+extern TypeInfo BlurType_t232_il2cpp_TypeInfo;
+extern TypeInfo BlurOptimized_t233_il2cpp_TypeInfo;
+extern TypeInfo MotionBlurFilter_t234_il2cpp_TypeInfo;
+extern TypeInfo CameraMotionBlur_t237_il2cpp_TypeInfo;
+extern TypeInfo ColorCorrectionMode_t239_il2cpp_TypeInfo;
+extern TypeInfo ColorCorrectionCurves_t241_il2cpp_TypeInfo;
+extern TypeInfo ColorCorrectionLookup_t243_il2cpp_TypeInfo;
+extern TypeInfo ColorCorrectionRamp_t245_il2cpp_TypeInfo;
+extern TypeInfo ContrastEnhance_t247_il2cpp_TypeInfo;
+extern TypeInfo ContrastStretch_t249_il2cpp_TypeInfo;
+extern TypeInfo CreaseShading_t250_il2cpp_TypeInfo;
+extern TypeInfo BlurType_t251_il2cpp_TypeInfo;
+extern TypeInfo BlurSampleCount_t252_il2cpp_TypeInfo;
+extern TypeInfo DepthOfField_t254_il2cpp_TypeInfo;
+extern TypeInfo Dof34QualitySetting_t255_il2cpp_TypeInfo;
+extern TypeInfo DofResolution_t256_il2cpp_TypeInfo;
+extern TypeInfo DofBlurriness_t257_il2cpp_TypeInfo;
+extern TypeInfo BokehDestination_t258_il2cpp_TypeInfo;
+extern TypeInfo DepthOfFieldDeprecated_t259_il2cpp_TypeInfo;
+extern TypeInfo EdgeDetectMode_t260_il2cpp_TypeInfo;
+extern TypeInfo EdgeDetection_t261_il2cpp_TypeInfo;
+extern TypeInfo Fisheye_t262_il2cpp_TypeInfo;
+extern TypeInfo GlobalFog_t263_il2cpp_TypeInfo;
+extern TypeInfo Grayscale_t264_il2cpp_TypeInfo;
+extern TypeInfo ImageEffectBase_t246_il2cpp_TypeInfo;
+extern TypeInfo ImageEffects_t265_il2cpp_TypeInfo;
+extern TypeInfo MotionBlur_t266_il2cpp_TypeInfo;
+extern TypeInfo NoiseAndGrain_t267_il2cpp_TypeInfo;
+extern TypeInfo NoiseAndScratches_t268_il2cpp_TypeInfo;
+extern TypeInfo PostEffectsBase_t213_il2cpp_TypeInfo;
+extern TypeInfo PostEffectsHelper_t269_il2cpp_TypeInfo;
+extern TypeInfo Quads_t271_il2cpp_TypeInfo;
+extern TypeInfo OverlayBlendMode_t273_il2cpp_TypeInfo;
+extern TypeInfo ScreenOverlay_t274_il2cpp_TypeInfo;
+extern TypeInfo ScreenSpaceAmbientObscurance_t275_il2cpp_TypeInfo;
+extern TypeInfo SSAOSamples_t276_il2cpp_TypeInfo;
+extern TypeInfo ScreenSpaceAmbientOcclusion_t277_il2cpp_TypeInfo;
+extern TypeInfo SepiaTone_t278_il2cpp_TypeInfo;
+extern TypeInfo SunShaftsResolution_t279_il2cpp_TypeInfo;
+extern TypeInfo ShaftsScreenBlendMode_t280_il2cpp_TypeInfo;
+extern TypeInfo SunShafts_t281_il2cpp_TypeInfo;
+extern TypeInfo TiltShiftMode_t282_il2cpp_TypeInfo;
+extern TypeInfo TiltShiftQuality_t283_il2cpp_TypeInfo;
+extern TypeInfo TiltShift_t284_il2cpp_TypeInfo;
+extern TypeInfo TonemapperType_t285_il2cpp_TypeInfo;
+extern TypeInfo AdaptiveTexSize_t286_il2cpp_TypeInfo;
+extern TypeInfo Tonemapping_t287_il2cpp_TypeInfo;
+extern TypeInfo Triangles_t288_il2cpp_TypeInfo;
+extern TypeInfo Twirl_t289_il2cpp_TypeInfo;
+extern TypeInfo AberrationMode_t290_il2cpp_TypeInfo;
+extern TypeInfo VignetteAndChromaticAberration_t291_il2cpp_TypeInfo;
+extern TypeInfo Vortex_t292_il2cpp_TypeInfo;
+extern TypeInfo AfterburnerPhysicsForce_t295_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__Iterator4_t298_il2cpp_TypeInfo;
+extern TypeInfo ExplosionFireAndDebris_t297_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__Iterator5_t306_il2cpp_TypeInfo;
+extern TypeInfo ExplosionPhysicsForce_t305_il2cpp_TypeInfo;
+extern TypeInfo U3COnCollisionEnterU3Ec__Iterator6_t310_il2cpp_TypeInfo;
+extern TypeInfo Explosive_t309_il2cpp_TypeInfo;
+extern TypeInfo ExtinguishableParticleSystem_t313_il2cpp_TypeInfo;
+extern TypeInfo FireLight_t315_il2cpp_TypeInfo;
+extern TypeInfo Hose_t317_il2cpp_TypeInfo;
+extern TypeInfo ParticleSystemMultiplier_t318_il2cpp_TypeInfo;
+extern TypeInfo SmokeParticles_t320_il2cpp_TypeInfo;
+extern TypeInfo WaterHoseParticles_t324_il2cpp_TypeInfo;
+extern TypeInfo Mode_t325_il2cpp_TypeInfo;
+extern TypeInfo ActivateTrigger_t327_il2cpp_TypeInfo;
+extern TypeInfo ReplacementDefinition_t328_il2cpp_TypeInfo;
+extern TypeInfo ReplacementList_t330_il2cpp_TypeInfo;
+extern TypeInfo AutoMobileShaderSwitch_t331_il2cpp_TypeInfo;
+extern TypeInfo Vector3andSpace_t332_il2cpp_TypeInfo;
+extern TypeInfo AutoMoveAndRotate_t333_il2cpp_TypeInfo;
+extern TypeInfo CameraRefocus_t334_il2cpp_TypeInfo;
+extern TypeInfo CurveControlledBob_t335_il2cpp_TypeInfo;
+extern TypeInfo U3CDragObjectU3Ec__Iterator7_t337_il2cpp_TypeInfo;
+extern TypeInfo DragRigidbody_t336_il2cpp_TypeInfo;
+extern TypeInfo DynamicShadowSettings_t339_il2cpp_TypeInfo;
+extern TypeInfo U3CFOVKickUpU3Ec__Iterator8_t341_il2cpp_TypeInfo;
+extern TypeInfo U3CFOVKickDownU3Ec__Iterator9_t342_il2cpp_TypeInfo;
+extern TypeInfo FOVKick_t340_il2cpp_TypeInfo;
+extern TypeInfo FPSCounter_t344_il2cpp_TypeInfo;
+extern TypeInfo FollowTarget_t345_il2cpp_TypeInfo;
+extern TypeInfo ForcedReset_t346_il2cpp_TypeInfo;
+extern TypeInfo U3CDoBobCycleU3Ec__IteratorA_t348_il2cpp_TypeInfo;
+extern TypeInfo LerpControlledBob_t347_il2cpp_TypeInfo;
+extern TypeInfo U3CResetCoroutineU3Ec__IteratorB_t349_il2cpp_TypeInfo;
+extern TypeInfo ObjectResetter_t311_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__IteratorC_t352_il2cpp_TypeInfo;
+extern TypeInfo ParticleSystemDestroyer_t351_il2cpp_TypeInfo;
+extern TypeInfo BuildTargetGroup_t353_il2cpp_TypeInfo;
+extern TypeInfo PlatformSpecificContent_t356_il2cpp_TypeInfo;
+extern TypeInfo SimpleActivatorMenu_t357_il2cpp_TypeInfo;
+extern TypeInfo SimpleMouseRotator_t358_il2cpp_TypeInfo;
+extern TypeInfo SmoothFollow_t359_il2cpp_TypeInfo;
+extern TypeInfo Action_t360_il2cpp_TypeInfo;
+extern TypeInfo Entry_t361_il2cpp_TypeInfo;
+extern TypeInfo Entries_t363_il2cpp_TypeInfo;
+extern TypeInfo U3CActivateU3Ec__IteratorD_t364_il2cpp_TypeInfo;
+extern TypeInfo U3CDeactivateU3Ec__IteratorE_t365_il2cpp_TypeInfo;
+extern TypeInfo U3CReloadLevelU3Ec__IteratorF_t366_il2cpp_TypeInfo;
+extern TypeInfo TimedObjectActivator_t367_il2cpp_TypeInfo;
+extern TypeInfo TimedObjectDestructor_t368_il2cpp_TypeInfo;
+extern TypeInfo WaypointList_t370_il2cpp_TypeInfo;
+extern TypeInfo RoutePoint_t371_il2cpp_TypeInfo;
+extern TypeInfo WaypointCircuit_t369_il2cpp_TypeInfo;
+extern TypeInfo ProgressStyle_t374_il2cpp_TypeInfo;
+extern TypeInfo WaypointProgressTracker_t375_il2cpp_TypeInfo;
+extern TypeInfo $ArrayType$8_t376_il2cpp_TypeInfo;
+extern TypeInfo U3CPrivateImplementationDetailsU3E_t377_il2cpp_TypeInfo;
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_AssemblyU2DCSharpU2Dfirstpass_Assembly_Types[257] = 
+{
+	&U3CModuleU3E_t0_il2cpp_TypeInfo,
+	&KeyValueStorageAndroid_t1_il2cpp_TypeInfo,
+	&RewardStorageAndroid_t3_il2cpp_TypeInfo,
+	&CoreSettings_t5_il2cpp_TypeInfo,
+	&ISoomlaPostBuildTool_t383_il2cpp_TypeInfo,
+	&ISoomlaSettings_t382_il2cpp_TypeInfo,
+	&ObjectKvp_t6_il2cpp_TypeInfo,
+	&U3CSetKeyValuePairU3Ec__AnonStorey13_t8_il2cpp_TypeInfo,
+	&ObjectDictionary_t12_il2cpp_TypeInfo,
+	&SoomlaEditorScript_t16_il2cpp_TypeInfo,
+	&SoomlaPostBuildTools_t18_il2cpp_TypeInfo,
+	&UnityNameValuePair_1_t19_il2cpp_TypeInfo,
+	&UnityKeyValuePair_2_t20_il2cpp_TypeInfo,
+	&UnityDictionaryEnumerator_t21_il2cpp_TypeInfo,
+	&U3CU3Ec__AnonStorey10_t22_il2cpp_TypeInfo,
+	&U3CRemoveU3Ec__AnonStorey11_t23_il2cpp_TypeInfo,
+	&U3CContainsKeyU3Ec__AnonStorey12_t24_il2cpp_TypeInfo,
+	&UnityDictionary_2_t25_il2cpp_TypeInfo,
+	&UnityDictionary_1_t27_il2cpp_TypeInfo,
+	&ISoomlaManifestTools_t433_il2cpp_TypeInfo,
+	&SoomlaAndroidUtil_t28_il2cpp_TypeInfo,
+	&SoomlaManifestTools_t29_il2cpp_TypeInfo,
+	&Action_t33_il2cpp_TypeInfo,
+	&CoreEvents_t36_il2cpp_TypeInfo,
+	&KeyValueStorageIOS_t42_il2cpp_TypeInfo,
+	&RewardStorageIOS_t43_il2cpp_TypeInfo,
+	&Type_t46_il2cpp_TypeInfo,
+	&AddJSONConents_t48_il2cpp_TypeInfo,
+	&FieldNotFound_t49_il2cpp_TypeInfo,
+	&GetFieldResponse_t50_il2cpp_TypeInfo,
+	&U3CBakeAsyncU3Ec__Iterator0_t52_il2cpp_TypeInfo,
+	&U3CPrintAsyncU3Ec__Iterator1_t56_il2cpp_TypeInfo,
+	&U3CStringifyAsyncU3Ec__Iterator2_t57_il2cpp_TypeInfo,
+	&JSONObject_t47_il2cpp_TypeInfo,
+	&NullCheckable_t62_il2cpp_TypeInfo,
+	&Recurrence_t68_il2cpp_TypeInfo,
+	&DateTimeRange_t69_il2cpp_TypeInfo,
+	&Schedule_t71_il2cpp_TypeInfo,
+	&SoomlaEntity_1_t72_il2cpp_TypeInfo,
+	&SoomlaExtensions_t73_il2cpp_TypeInfo,
+	&SoomlaUtils_t74_il2cpp_TypeInfo,
+	&JSONConsts_t75_il2cpp_TypeInfo,
+	&KeyValueStorage_t2_il2cpp_TypeInfo,
+	&RewardStorage_t4_il2cpp_TypeInfo,
+	&BadgeReward_t76_il2cpp_TypeInfo,
+	&RandomReward_t78_il2cpp_TypeInfo,
+	&Reward_t40_il2cpp_TypeInfo,
+	&SequenceReward_t44_il2cpp_TypeInfo,
+	&AndroidJNIHandler_t81_il2cpp_TypeInfo,
+	&SoomlaStoreAndroid_t82_il2cpp_TypeInfo,
+	&StoreEventPusherAndroid_t84_il2cpp_TypeInfo,
+	&StoreInfoAndroid_t86_il2cpp_TypeInfo,
+	&VirtualCurrencyStorageAndroid_t88_il2cpp_TypeInfo,
+	&VirtualGoodsStorageAndroid_t90_il2cpp_TypeInfo,
+	&StoreManifestTools_t92_il2cpp_TypeInfo,
+	&StoreSettings_t93_il2cpp_TypeInfo,
+	&IOS_ErrorCodes_t94_il2cpp_TypeInfo,
+	&SoomlaStoreIOS_t95_il2cpp_TypeInfo,
+	&StoreEventPusherIOS_t96_il2cpp_TypeInfo,
+	&StoreInfoIOS_t97_il2cpp_TypeInfo,
+	&VirtualCurrencyStorageIOS_t99_il2cpp_TypeInfo,
+	&VirtualGoodsStorageIOS_t101_il2cpp_TypeInfo,
+	&IStoreAssets_t98_il2cpp_TypeInfo,
+	&SoomlaStore_t83_il2cpp_TypeInfo,
+	&StoreEventPusher_t85_il2cpp_TypeInfo,
+	&RunLaterDelegate_t107_il2cpp_TypeInfo,
+	&Action_t108_il2cpp_TypeInfo,
+	&U3CRunLaterPrivU3Ec__Iterator3_t109_il2cpp_TypeInfo,
+	&StoreEvents_t110_il2cpp_TypeInfo,
+	&LocalUpgrade_t122_il2cpp_TypeInfo,
+	&StoreInventory_t126_il2cpp_TypeInfo,
+	&StoreInfo_t87_il2cpp_TypeInfo,
+	&StoreJSONConsts_t139_il2cpp_TypeInfo,
+	&VirtualCurrencyStorage_t89_il2cpp_TypeInfo,
+	&VirtualGoodsStorage_t91_il2cpp_TypeInfo,
+	&VirtualItemStorage_t140_il2cpp_TypeInfo,
+	&Consumable_t141_il2cpp_TypeInfo,
+	&MarketItem_t142_il2cpp_TypeInfo,
+	&PurchasableVirtualItem_t106_il2cpp_TypeInfo,
+	&VirtualCategory_t136_il2cpp_TypeInfo,
+	&VirtualItem_t100_il2cpp_TypeInfo,
+	&VirtualCurrency_t105_il2cpp_TypeInfo,
+	&VirtualCurrencyPack_t145_il2cpp_TypeInfo,
+	&EquippingModel_t146_il2cpp_TypeInfo,
+	&EquippableVG_t104_il2cpp_TypeInfo,
+	&LifetimeVG_t147_il2cpp_TypeInfo,
+	&SingleUsePackVG_t148_il2cpp_TypeInfo,
+	&SingleUseVG_t149_il2cpp_TypeInfo,
+	&UpgradeVG_t103_il2cpp_TypeInfo,
+	&VirtualGood_t102_il2cpp_TypeInfo,
+	&InsufficientFundsException_t150_il2cpp_TypeInfo,
+	&NotEnoughGoodsException_t152_il2cpp_TypeInfo,
+	&VirtualItemNotFoundException_t153_il2cpp_TypeInfo,
+	&PurchaseType_t143_il2cpp_TypeInfo,
+	&PurchaseWithMarket_t154_il2cpp_TypeInfo,
+	&U3CBuyU3Ec__AnonStorey14_t156_il2cpp_TypeInfo,
+	&PurchaseWithVirtualItem_t155_il2cpp_TypeInfo,
+	&VirtualItemReward_t157_il2cpp_TypeInfo,
+	&PlatformWrapper_t158_il2cpp_TypeInfo,
+	&BasePlatformWrapper_t161_il2cpp_TypeInfo,
+	&SexEnum_t164_il2cpp_TypeInfo,
+	&AnalyticsResult_t165_il2cpp_TypeInfo,
+	&LogLevel_t166_il2cpp_TypeInfo,
+	&UnityAnalytics_t168_il2cpp_TypeInfo,
+	&iOSWrapper_t172_il2cpp_TypeInfo,
+	&Camera2DFollow_t174_il2cpp_TypeInfo,
+	&CameraFollow_t176_il2cpp_TypeInfo,
+	&Platformer2DUserControl_t179_il2cpp_TypeInfo,
+	&PlatformerCharacter2D_t178_il2cpp_TypeInfo,
+	&Restarter_t183_il2cpp_TypeInfo,
+	&AxisTouchButton_t185_il2cpp_TypeInfo,
+	&ButtonHandler_t188_il2cpp_TypeInfo,
+	&ActiveInputMethod_t189_il2cpp_TypeInfo,
+	&VirtualAxis_t186_il2cpp_TypeInfo,
+	&VirtualButton_t190_il2cpp_TypeInfo,
+	&CrossPlatformInputManager_t192_il2cpp_TypeInfo,
+	&InputAxisScrollbar_t193_il2cpp_TypeInfo,
+	&AxisOption_t194_il2cpp_TypeInfo,
+	&Joystick_t195_il2cpp_TypeInfo,
+	&MobileControlRig_t196_il2cpp_TypeInfo,
+	&MobileInput_t197_il2cpp_TypeInfo,
+	&StandaloneInput_t198_il2cpp_TypeInfo,
+	&AxisOptions_t199_il2cpp_TypeInfo,
+	&MappingType_t200_il2cpp_TypeInfo,
+	&AxisMapping_t201_il2cpp_TypeInfo,
+	&TiltInput_t202_il2cpp_TypeInfo,
+	&AxisOption_t203_il2cpp_TypeInfo,
+	&ControlStyle_t204_il2cpp_TypeInfo,
+	&TouchPad_t206_il2cpp_TypeInfo,
+	&VirtualInput_t191_il2cpp_TypeInfo,
+	&AAMode_t209_il2cpp_TypeInfo,
+	&Antialiasing_t212_il2cpp_TypeInfo,
+	&LensFlareStyle_t215_il2cpp_TypeInfo,
+	&TweakMode_t216_il2cpp_TypeInfo,
+	&HDRBloomMode_t217_il2cpp_TypeInfo,
+	&BloomScreenBlendMode_t218_il2cpp_TypeInfo,
+	&BloomQuality_t219_il2cpp_TypeInfo,
+	&Bloom_t221_il2cpp_TypeInfo,
+	&LensflareStyle34_t223_il2cpp_TypeInfo,
+	&TweakMode34_t224_il2cpp_TypeInfo,
+	&HDRBloomMode_t225_il2cpp_TypeInfo,
+	&BloomScreenBlendMode_t226_il2cpp_TypeInfo,
+	&BloomAndFlares_t227_il2cpp_TypeInfo,
+	&Resolution_t228_il2cpp_TypeInfo,
+	&BlurType_t229_il2cpp_TypeInfo,
+	&BloomOptimized_t230_il2cpp_TypeInfo,
+	&Blur_t231_il2cpp_TypeInfo,
+	&BlurType_t232_il2cpp_TypeInfo,
+	&BlurOptimized_t233_il2cpp_TypeInfo,
+	&MotionBlurFilter_t234_il2cpp_TypeInfo,
+	&CameraMotionBlur_t237_il2cpp_TypeInfo,
+	&ColorCorrectionMode_t239_il2cpp_TypeInfo,
+	&ColorCorrectionCurves_t241_il2cpp_TypeInfo,
+	&ColorCorrectionLookup_t243_il2cpp_TypeInfo,
+	&ColorCorrectionRamp_t245_il2cpp_TypeInfo,
+	&ContrastEnhance_t247_il2cpp_TypeInfo,
+	&ContrastStretch_t249_il2cpp_TypeInfo,
+	&CreaseShading_t250_il2cpp_TypeInfo,
+	&BlurType_t251_il2cpp_TypeInfo,
+	&BlurSampleCount_t252_il2cpp_TypeInfo,
+	&DepthOfField_t254_il2cpp_TypeInfo,
+	&Dof34QualitySetting_t255_il2cpp_TypeInfo,
+	&DofResolution_t256_il2cpp_TypeInfo,
+	&DofBlurriness_t257_il2cpp_TypeInfo,
+	&BokehDestination_t258_il2cpp_TypeInfo,
+	&DepthOfFieldDeprecated_t259_il2cpp_TypeInfo,
+	&EdgeDetectMode_t260_il2cpp_TypeInfo,
+	&EdgeDetection_t261_il2cpp_TypeInfo,
+	&Fisheye_t262_il2cpp_TypeInfo,
+	&GlobalFog_t263_il2cpp_TypeInfo,
+	&Grayscale_t264_il2cpp_TypeInfo,
+	&ImageEffectBase_t246_il2cpp_TypeInfo,
+	&ImageEffects_t265_il2cpp_TypeInfo,
+	&MotionBlur_t266_il2cpp_TypeInfo,
+	&NoiseAndGrain_t267_il2cpp_TypeInfo,
+	&NoiseAndScratches_t268_il2cpp_TypeInfo,
+	&PostEffectsBase_t213_il2cpp_TypeInfo,
+	&PostEffectsHelper_t269_il2cpp_TypeInfo,
+	&Quads_t271_il2cpp_TypeInfo,
+	&OverlayBlendMode_t273_il2cpp_TypeInfo,
+	&ScreenOverlay_t274_il2cpp_TypeInfo,
+	&ScreenSpaceAmbientObscurance_t275_il2cpp_TypeInfo,
+	&SSAOSamples_t276_il2cpp_TypeInfo,
+	&ScreenSpaceAmbientOcclusion_t277_il2cpp_TypeInfo,
+	&SepiaTone_t278_il2cpp_TypeInfo,
+	&SunShaftsResolution_t279_il2cpp_TypeInfo,
+	&ShaftsScreenBlendMode_t280_il2cpp_TypeInfo,
+	&SunShafts_t281_il2cpp_TypeInfo,
+	&TiltShiftMode_t282_il2cpp_TypeInfo,
+	&TiltShiftQuality_t283_il2cpp_TypeInfo,
+	&TiltShift_t284_il2cpp_TypeInfo,
+	&TonemapperType_t285_il2cpp_TypeInfo,
+	&AdaptiveTexSize_t286_il2cpp_TypeInfo,
+	&Tonemapping_t287_il2cpp_TypeInfo,
+	&Triangles_t288_il2cpp_TypeInfo,
+	&Twirl_t289_il2cpp_TypeInfo,
+	&AberrationMode_t290_il2cpp_TypeInfo,
+	&VignetteAndChromaticAberration_t291_il2cpp_TypeInfo,
+	&Vortex_t292_il2cpp_TypeInfo,
+	&AfterburnerPhysicsForce_t295_il2cpp_TypeInfo,
+	&U3CStartU3Ec__Iterator4_t298_il2cpp_TypeInfo,
+	&ExplosionFireAndDebris_t297_il2cpp_TypeInfo,
+	&U3CStartU3Ec__Iterator5_t306_il2cpp_TypeInfo,
+	&ExplosionPhysicsForce_t305_il2cpp_TypeInfo,
+	&U3COnCollisionEnterU3Ec__Iterator6_t310_il2cpp_TypeInfo,
+	&Explosive_t309_il2cpp_TypeInfo,
+	&ExtinguishableParticleSystem_t313_il2cpp_TypeInfo,
+	&FireLight_t315_il2cpp_TypeInfo,
+	&Hose_t317_il2cpp_TypeInfo,
+	&ParticleSystemMultiplier_t318_il2cpp_TypeInfo,
+	&SmokeParticles_t320_il2cpp_TypeInfo,
+	&WaterHoseParticles_t324_il2cpp_TypeInfo,
+	&Mode_t325_il2cpp_TypeInfo,
+	&ActivateTrigger_t327_il2cpp_TypeInfo,
+	&ReplacementDefinition_t328_il2cpp_TypeInfo,
+	&ReplacementList_t330_il2cpp_TypeInfo,
+	&AutoMobileShaderSwitch_t331_il2cpp_TypeInfo,
+	&Vector3andSpace_t332_il2cpp_TypeInfo,
+	&AutoMoveAndRotate_t333_il2cpp_TypeInfo,
+	&CameraRefocus_t334_il2cpp_TypeInfo,
+	&CurveControlledBob_t335_il2cpp_TypeInfo,
+	&U3CDragObjectU3Ec__Iterator7_t337_il2cpp_TypeInfo,
+	&DragRigidbody_t336_il2cpp_TypeInfo,
+	&DynamicShadowSettings_t339_il2cpp_TypeInfo,
+	&U3CFOVKickUpU3Ec__Iterator8_t341_il2cpp_TypeInfo,
+	&U3CFOVKickDownU3Ec__Iterator9_t342_il2cpp_TypeInfo,
+	&FOVKick_t340_il2cpp_TypeInfo,
+	&FPSCounter_t344_il2cpp_TypeInfo,
+	&FollowTarget_t345_il2cpp_TypeInfo,
+	&ForcedReset_t346_il2cpp_TypeInfo,
+	&U3CDoBobCycleU3Ec__IteratorA_t348_il2cpp_TypeInfo,
+	&LerpControlledBob_t347_il2cpp_TypeInfo,
+	&U3CResetCoroutineU3Ec__IteratorB_t349_il2cpp_TypeInfo,
+	&ObjectResetter_t311_il2cpp_TypeInfo,
+	&U3CStartU3Ec__IteratorC_t352_il2cpp_TypeInfo,
+	&ParticleSystemDestroyer_t351_il2cpp_TypeInfo,
+	&BuildTargetGroup_t353_il2cpp_TypeInfo,
+	&PlatformSpecificContent_t356_il2cpp_TypeInfo,
+	&SimpleActivatorMenu_t357_il2cpp_TypeInfo,
+	&SimpleMouseRotator_t358_il2cpp_TypeInfo,
+	&SmoothFollow_t359_il2cpp_TypeInfo,
+	&Action_t360_il2cpp_TypeInfo,
+	&Entry_t361_il2cpp_TypeInfo,
+	&Entries_t363_il2cpp_TypeInfo,
+	&U3CActivateU3Ec__IteratorD_t364_il2cpp_TypeInfo,
+	&U3CDeactivateU3Ec__IteratorE_t365_il2cpp_TypeInfo,
+	&U3CReloadLevelU3Ec__IteratorF_t366_il2cpp_TypeInfo,
+	&TimedObjectActivator_t367_il2cpp_TypeInfo,
+	&TimedObjectDestructor_t368_il2cpp_TypeInfo,
+	&WaypointList_t370_il2cpp_TypeInfo,
+	&RoutePoint_t371_il2cpp_TypeInfo,
+	&WaypointCircuit_t369_il2cpp_TypeInfo,
+	&ProgressStyle_t374_il2cpp_TypeInfo,
+	&WaypointProgressTracker_t375_il2cpp_TypeInfo,
+	&$ArrayType$8_t376_il2cpp_TypeInfo,
+	&U3CPrivateImplementationDetailsU3E_t377_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
+extern CustomAttributesCache g_AssemblyU2DCSharpU2Dfirstpass_Assembly__CustomAttributeCache;
+Il2CppAssembly g_AssemblyU2DCSharpU2Dfirstpass_Assembly = 
+{
+	{ "Assembly-CSharp-firstpass", 0, 0, 0, { 0 }, 32772, 0, 0, 0, 0, 0, 0 },
+	&g_AssemblyU2DCSharpU2Dfirstpass_dll_Image,
+	&g_AssemblyU2DCSharpU2Dfirstpass_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image = 
+{
+	 "Assembly-CSharp-firstpass.dll" ,
+	&g_AssemblyU2DCSharpU2Dfirstpass_Assembly,
+	g_AssemblyU2DCSharpU2Dfirstpass_Assembly_Types,
+	256,
+	NULL,
+};
+static void s_AssemblyU2DCSharpU2DfirstpassRegistration()
+{
+	RegisterAssembly (&g_AssemblyU2DCSharpU2Dfirstpass_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_AssemblyU2DCSharpU2DfirstpassRegistrationVariable(&s_AssemblyU2DCSharpU2DfirstpassRegistration, NULL);

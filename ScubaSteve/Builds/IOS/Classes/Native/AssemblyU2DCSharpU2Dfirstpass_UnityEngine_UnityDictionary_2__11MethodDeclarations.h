@@ -1,0 +1,13 @@
+﻿#pragma once
+
+// UnityEngine.UnityDictionary`2/<ContainsKey>c__AnonStorey12<System.String,System.String>
+struct U3CContainsKeyU3Ec__AnonStorey12_t395;
+// UnityEngine.UnityKeyValuePair`2<System.String,System.String>
+struct UnityKeyValuePair_2_t15;
+
+// System.Void UnityEngine.UnityDictionary`2/<ContainsKey>c__AnonStorey12<System.String,System.String>::.ctor()
+// UnityEngine.UnityDictionary`2/<ContainsKey>c__AnonStorey12<System.Object,System.Object>
+#include "AssemblyU2DCSharpU2Dfirstpass_UnityEngine_UnityDictionary_2__7MethodDeclarations.h"
+#define U3CContainsKeyU3Ec__AnonStorey12__ctor_m1314(__this, method) (void)U3CContainsKeyU3Ec__AnonStorey12__ctor_m14527_gshared((U3CContainsKeyU3Ec__AnonStorey12_t2933 *)__this, method)
+// System.Boolean UnityEngine.UnityDictionary`2/<ContainsKey>c__AnonStorey12<System.String,System.String>::<>m__5(UnityEngine.UnityKeyValuePair`2<K,V>)
+#define U3CContainsKeyU3Ec__AnonStorey12_U3CU3Em__5_m1315(__this, ___x, method) (bool)U3CContainsKeyU3Ec__AnonStorey12_U3CU3Em__5_m14528_gshared((U3CContainsKeyU3Ec__AnonStorey12_t2933 *)__this, (UnityKeyValuePair_2_t2859 *)___x, method)
